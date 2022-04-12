@@ -1,0 +1,91 @@
+.login-wrap {
+  width: 384px;
+  margin : 0 auto;
+  margin-top: 40px;
+}
+
+.site-logo {
+  text-align: center;
+  font-size: 40px;
+  font-weight: bold;
+  padding : 40px 0;
+  padding-left: 2px;
+}
+
+form > input, button {
+  width: 100%;
+  padding : 10px;
+  box-sizing: border-box;
+  margin-bottom : 10px;
+  font-size: 14px;
+  font-family: inherit;
+  border-radius: 2px;
+}
+
+input {
+  border : 1px solid #999;
+}
+
+button {
+  font-size: 18px;
+  font-weight: 600;
+  padding-top: 12px;
+  padding-bottom: 9px;
+  background-color: #019267;
+  border: none;
+  color: white;
+  cursor: pointer;
+}
+
+
+.join-area {
+  display: flex;
+  align-items: center;
+  font-size: 12px;
+  justify-content: space-between;
+}
+
+.auto-login-chbx {
+  display: flex;
+  width: 100px;
+  justify-content: left;
+  align-items: center;
+}
+
+.auto-login-chbx > label{
+  padding-top: 3px;
+  padding-left: 3px;
+}
+
+.info-area {
+  display: flex;
+  align-items: center;
+}
+
+.info-area > span {
+  padding-top: 3px;
+}
+
+.line {
+  width: 100%;
+  border-top : 1px solid rgb(175, 174, 174);
+  margin: 18px 0;
+}
+
+.sns-area {
+  position: relative;
+}
+
+.kakao-login-btn {
+  background-color: #fae301;
+  color: #3c1e1e;
+  position: relative;
+  border-radius: 4px;
+}
+
+.kakao-login-btn > img {
+  position: absolute;
+  left: 10px;
+  top: 4px;
+  height: 35px;
+}

@@ -1,0 +1,201 @@
+/* 사이트 랩 */
+.site-wrap {
+  width: 1180px;
+  min-height: 100vh;
+  margin : 0 auto;
+}
+
+
+/* 헤어 css 시작 */
+header {
+  width: 95%;
+  margin : 0 auto;
+}
+
+.header-top {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 15px 0;
+}
+
+.banner {
+  width: 848px;
+  height: 88px;
+  /* background-color: greenyellow; */
+  border: 1px solid #999;
+  border-radius: 3px;
+  margin-left: -10px;
+  margin-right: 20px;
+}
+
+.site-logo {
+  height: 88px;
+  width: 232px;
+  /* border : 1px solid #999; */
+  /* background-color: skyblue; */
+  border-radius: 3px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.site-logo > span {
+  font-size: 40px;
+  font-weight: bold;
+  margin-top: 8px;
+}
+
+.header-mid {
+  background-color: #019267;
+  width: 1105px;
+  margin-left: 4px;
+  border-radius: 3px;
+  color: white;
+}
+
+.header-mid > ul {
+  display: flex;
+  justify-content: space-between;
+}
+
+.header-mid > ul > li {
+  margin-top: 4px; 
+  margin-left: 60px;
+  padding : 12px 0;
+  flex : 1 1 0%;
+}
+/* 헤더 css 끝 */
+
+
+/* 메인 area css 시작 */
+
+/* 메인 두 영역 중 윗 부분 시작 */
+.main-top {
+  width: 93.6%;
+  height: 400px;
+  margin : 0 auto;
+  margin-top: 17px;
+  margin-left: 33px;
+  display: flex;
+  justify-content: space-between;
+}
+
+/* 메인 윗 부분 left */
+.main-top-left {
+  width: 35%;
+  height: 100%;
+  border: 1px solid #999;
+  border-radius: 3px;
+}
+
+.login-area {
+  width: 92%;
+  margin : 0 auto;
+}
+
+.login-area-top {
+  padding : 22px 0;
+}
+
+.login-msg {
+  text-align: center;
+  margin-bottom: 10px;
+  font-size: 14px;
+  font-weight: 400;
+}
+
+.login-btn, .kakao-login-btn {
+  width: 100%;
+  border: none;
+  font-size: 15px;
+  font-weight: bold;
+  padding : 10px 0;
+  background-color: #019267;
+  color: white;
+  margin: 5px 0;
+  border-radius: 3px;
+  cursor: pointer;
+  font-family: inherit;
+  padding-top: 13px;
+}
+
+.kakao-login-btn {
+  background-color: #fae301;
+  color: #3c1e1e;
+  position: relative;
+}
+
+.kakao-login-btn > img {
+  position: absolute;
+  left: 10px;
+  top: 3px;
+  height: 35px;
+}
+
+.join-area {
+  margin: 0 auto;
+  margin-top: 6px;
+  width: 97%;
+  display: flex;
+  justify-content: space-between;
+}
+
+.auto-login-check {
+  display: flex;
+  align-items: center;
+}
+
+
+.join-area > span, .join-area > div > span {
+  font-size: 12px;
+}
+
+
+/* 메인 윗 부분 right */
+.main-top-right {
+  width: 64%;
+  height: 100%;
+  border: 1px solid #999;
+  border-radius: 3px;
+  padding : 14px;
+  box-sizing: border-box;
+}
+
+.article-all-header {
+  font-weight: 600;
+  border-left: 3px solid #019267;
+  padding-left: 10px;
+  padding-top: 3px;
+}
+
+
+
+/* 메인 bottom 시작 */
+.main-mid {
+  border: 1px solid #999;
+  border-radius: 3px;
+  width: 1103px;
+  margin : 0 auto;
+  height: 400px;
+  margin-top: 15px;
+  margin-left: 33px;
+}
+
+
+
+
+/* footer 영역 시작 */
+footer {
+  padding : 40px 0;
+  text-align: center;
+  font-size: 14px;
+}
+
+.footer-main {
+  margin-bottom: 15px;
+}
+
+.footer-main > a {
+  padding : 0 10px;
+}
