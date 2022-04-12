@@ -83,8 +83,8 @@ header {
 
 /* 메인 윗 부분 left */
 .main-top-left {
-  width: 35%;
-  height: 100%;
+  width: 30%;
+  height: 400px;
   border: 1px solid #999;
   border-radius: 3px;
 }
@@ -154,8 +154,8 @@ header {
 
 /* 메인 윗 부분 right */
 .main-top-right {
-  width: 64%;
-  height: 100%;
+  width: 69%;
+  height: 401px;
   border: 1px solid #999;
   border-radius: 3px;
   padding : 14px;
@@ -169,6 +169,62 @@ header {
   padding-top: 3px;
 }
 
+.article-all-main {
+  margin-top: 1px;
+  width: 100%;
+  height: 92%;
+  /* border: 1px solid #999; */
+  border-radius: 4px;
+  box-sizing: border-box;
+  padding : 10px 0;
+}
+
+.article-all-main > ul {
+  display: flex;
+}
+
+.article-at {
+  display: flex;
+  width: 400px;
+  transition: 0.2s;
+  margin-bottom: 3px;
+}
+.article-at:hover {
+  margin-left: 5px;
+  display: flex;
+  width: 400px;
+}
+
+.article-all-main-img {
+  border: 1px solid #999;
+  border-radius: 2px;
+  width: 120px;
+  height: 80px;
+  padding : 8px;
+  box-sizing: border-box;
+}
+
+.article-title-area {
+  padding : 4px 10px;
+}
+
+.article-title-area > .title{
+  color : rgb(215, 141, 3);
+  font-size: 14px;
+  font-weight: bold;
+}
+
+.article-title-area> .date {
+  margin-top: 7px;
+  font-size: 11px;
+  font-weight: bold;
+}
+
+.article-title-area> .content {
+  margin-top: 10px;
+  font-size: 12px;
+  line-height: 16px;
+}
 
 
 /* 메인 bottom 시작 */
